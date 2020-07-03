@@ -5,8 +5,8 @@
 //  Created by Milos on 6/26/20.
 //
 
-import XCTest
 @testable import Trial
+import XCTest
 
 class TrialTests: XCTestCase {
 

@@ -11,7 +11,9 @@ import SwiftUI
 struct TrialApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            let state = RootViewState()
+            let interactor = RootViewInteractor(state: state)
+            RootView(state: state, interactor: interactor)
         }
     }
 }
