@@ -8,15 +8,15 @@
 import Foundation
 import SwiftUI
 
-protocol RootViewInteractable {
+protocol AppInteractable {
     func showTransactionList()
 }
 
-class RootViewInteractor: RootViewInteractable {
+class AppInteractor: AppInteractable {
     
-    private let state: RootViewState
+    private let state: AppState
     
-    init(state: RootViewState) {
+    init(state: AppState) {
         self.state = state
         
             if state.isFirstRun {

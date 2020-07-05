@@ -12,7 +12,7 @@ enum ScreenName {
     case transactionScreen
 }
 
-class RootViewState: ObservableObject {
+class AppState: ObservableObject {
     @AppStorage("firstRun") var isFirstRun: Bool = true
     @Published var activeViewType: ScreenName = .tourView
 }

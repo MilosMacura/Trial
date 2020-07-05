@@ -8,10 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		0754038F24AF95E800C84E1B /* InroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0754038E24AF95E800C84E1B /* InroView.swift */; };
-		076877F924A6444100AC07A5 /* RootViewInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076877F824A6444100AC07A5 /* RootViewInteractor.swift */; };
+		076877F924A6444100AC07A5 /* AppInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076877F824A6444100AC07A5 /* AppInteractor.swift */; };
 		076877FE24A64A6600AC07A5 /* TransactionListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076877FD24A64A6600AC07A5 /* TransactionListView.swift */; };
-		0787548E24ACBC6D00979C48 /* TransactionListViewState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0787548D24ACBC6D00979C48 /* TransactionListViewState.swift */; };
-		0787549024ACBC7E00979C48 /* TransactionListViewInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0787548F24ACBC7E00979C48 /* TransactionListViewInteractor.swift */; };
+		0787548E24ACBC6D00979C48 /* TransactionListState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0787548D24ACBC6D00979C48 /* TransactionListState.swift */; };
+		0787549024ACBC7E00979C48 /* TransactionListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0787548F24ACBC7E00979C48 /* TransactionListInteractor.swift */; };
 		0787549424ACBEBB00979C48 /* transactions.json in Resources */ = {isa = PBXBuildFile; fileRef = 0787549324ACBEBB00979C48 /* transactions.json */; };
 		0787549624ACBED400979C48 /* TransactionsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0787549524ACBED400979C48 /* TransactionsAPI.swift */; };
 		0787549924ACBF1C00979C48 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0787549824ACBF1C00979C48 /* Models.swift */; };
@@ -19,18 +19,30 @@
 		0787549D24AE4DA900979C48 /* DateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0787549C24AE4DA900979C48 /* DateFormatter.swift */; };
 		0787549F24AF7E4500979C48 /* ButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0787549E24AF7E4500979C48 /* ButtonStyle.swift */; };
 		078754A324AF8BB400979C48 /* TransactionDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078754A224AF8BB400979C48 /* TransactionDetailView.swift */; };
-		078754A524AF8BC800979C48 /* TransactionDetailViewState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078754A424AF8BC800979C48 /* TransactionDetailViewState.swift */; };
-		078754A724AF8BD500979C48 /* TransactionDetailViewInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078754A624AF8BD500979C48 /* TransactionDetailViewInteractor.swift */; };
+		078754A524AF8BC800979C48 /* TransactionDetailState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078754A424AF8BC800979C48 /* TransactionDetailState.swift */; };
+		078754A724AF8BD500979C48 /* TransactionDetailInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078754A624AF8BD500979C48 /* TransactionDetailInteractor.swift */; };
 		078754A924AF8D0E00979C48 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078754A824AF8D0E00979C48 /* LoadingView.swift */; };
 		078754AB24AF8DA200979C48 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078754AA24AF8DA200979C48 /* ErrorView.swift */; };
 		078754AD24AF8DDC00979C48 /* TransactionListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078754AC24AF8DDC00979C48 /* TransactionListItem.swift */; };
 		078754B024AF920300979C48 /* TransactionHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078754AF24AF920300979C48 /* TransactionHelpers.swift */; };
-		07F3C03024A64CE500004A21 /* BootServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F3C02F24A64CE500004A21 /* BootServiceTests.swift */; };
+		07A5699024B21F6D00440CFC /* transactions_mock.json in Resources */ = {isa = PBXBuildFile; fileRef = 07A5698F24B21F6D00440CFC /* transactions_mock.json */; };
+		07A5699424B220E500440CFC /* DateFormatterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A5699324B220E500440CFC /* DateFormatterTests.swift */; };
+		07A5699624B2210500440CFC /* ButtonStyleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A5699524B2210500440CFC /* ButtonStyleTests.swift */; };
+		07A5699824B2212C00440CFC /* TransactionsAPITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A5699724B2212C00440CFC /* TransactionsAPITests.swift */; };
+		07A5699B24B2215900440CFC /* TransactionsAPIMockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A5699A24B2215900440CFC /* TransactionsAPIMockTests.swift */; };
+		07A5699D24B221A400440CFC /* TourViewInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A5699C24B221A400440CFC /* TourViewInteractorTests.swift */; };
+		07A5699F24B221D100440CFC /* TourViewStateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A5699E24B221D100440CFC /* TourViewStateTests.swift */; };
+		07A569A124B2254400440CFC /* TransactionListInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A569A024B2254400440CFC /* TransactionListInteractorTests.swift */; };
+		07A569A324B2256500440CFC /* TransactionListStateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A569A224B2256500440CFC /* TransactionListStateTests.swift */; };
+		07A569A524B2258400440CFC /* TransactionDetailInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A569A424B2258400440CFC /* TransactionDetailInteractorTests.swift */; };
+		07A569A724B2259E00440CFC /* TransactionDetailStateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A569A624B2259D00440CFC /* TransactionDetailStateTests.swift */; };
+		07A569A924B225D600440CFC /* AppInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A569A824B225D600440CFC /* AppInteractorTests.swift */; };
+		07A569AB24B225EB00440CFC /* AppStateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A569AA24B225EB00440CFC /* AppStateTests.swift */; };
 		07F3C03324A6572200004A21 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F3C03224A6572200004A21 /* Colors.swift */; };
 		07F3C03524A65C0300004A21 /* TourViewState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F3C03424A65C0300004A21 /* TourViewState.swift */; };
 		07F3C03A24A7BC3800004A21 /* TourViewInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F3C03924A7BC3800004A21 /* TourViewInteractor.swift */; };
-		07F3C03E24A8F21000004A21 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F3C03D24A8F21000004A21 /* RootView.swift */; };
-		07F3C04024A8F26900004A21 /* RootViewState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F3C03F24A8F26900004A21 /* RootViewState.swift */; };
+		07F3C03E24A8F21000004A21 /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F3C03D24A8F21000004A21 /* AppView.swift */; };
+		07F3C04024A8F26900004A21 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F3C03F24A8F26900004A21 /* AppState.swift */; };
 		07F8894124A5F67100D922B0 /* TrialApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F8894024A5F67100D922B0 /* TrialApp.swift */; };
 		07F8894324A5F67100D922B0 /* TourView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F8894224A5F67100D922B0 /* TourView.swift */; };
 		07F8894524A5F67300D922B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07F8894424A5F67300D922B0 /* Assets.xcassets */; };
@@ -58,10 +70,10 @@
 
 /* Begin PBXFileReference section */
 		0754038E24AF95E800C84E1B /* InroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InroView.swift; sourceTree = "<group>"; };
-		076877F824A6444100AC07A5 /* RootViewInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewInteractor.swift; sourceTree = "<group>"; };
+		076877F824A6444100AC07A5 /* AppInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppInteractor.swift; sourceTree = "<group>"; };
 		076877FD24A64A6600AC07A5 /* TransactionListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionListView.swift; sourceTree = "<group>"; };
-		0787548D24ACBC6D00979C48 /* TransactionListViewState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionListViewState.swift; sourceTree = "<group>"; };
-		0787548F24ACBC7E00979C48 /* TransactionListViewInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionListViewInteractor.swift; sourceTree = "<group>"; };
+		0787548D24ACBC6D00979C48 /* TransactionListState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionListState.swift; sourceTree = "<group>"; };
+		0787548F24ACBC7E00979C48 /* TransactionListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionListInteractor.swift; sourceTree = "<group>"; };
 		0787549324ACBEBB00979C48 /* transactions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = transactions.json; sourceTree = "<group>"; };
 		0787549524ACBED400979C48 /* TransactionsAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionsAPI.swift; sourceTree = "<group>"; };
 		0787549824ACBF1C00979C48 /* Models.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
@@ -69,18 +81,30 @@
 		0787549C24AE4DA900979C48 /* DateFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatter.swift; sourceTree = "<group>"; };
 		0787549E24AF7E4500979C48 /* ButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyle.swift; sourceTree = "<group>"; };
 		078754A224AF8BB400979C48 /* TransactionDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionDetailView.swift; sourceTree = "<group>"; };
-		078754A424AF8BC800979C48 /* TransactionDetailViewState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionDetailViewState.swift; sourceTree = "<group>"; };
-		078754A624AF8BD500979C48 /* TransactionDetailViewInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionDetailViewInteractor.swift; sourceTree = "<group>"; };
+		078754A424AF8BC800979C48 /* TransactionDetailState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionDetailState.swift; sourceTree = "<group>"; };
+		078754A624AF8BD500979C48 /* TransactionDetailInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionDetailInteractor.swift; sourceTree = "<group>"; };
 		078754A824AF8D0E00979C48 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		078754AA24AF8DA200979C48 /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
 		078754AC24AF8DDC00979C48 /* TransactionListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionListItem.swift; sourceTree = "<group>"; };
 		078754AF24AF920300979C48 /* TransactionHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionHelpers.swift; sourceTree = "<group>"; };
-		07F3C02F24A64CE500004A21 /* BootServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BootServiceTests.swift; sourceTree = "<group>"; };
+		07A5698F24B21F6D00440CFC /* transactions_mock.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = transactions_mock.json; sourceTree = "<group>"; };
+		07A5699324B220E500440CFC /* DateFormatterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatterTests.swift; sourceTree = "<group>"; };
+		07A5699524B2210500440CFC /* ButtonStyleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyleTests.swift; sourceTree = "<group>"; };
+		07A5699724B2212C00440CFC /* TransactionsAPITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsAPITests.swift; sourceTree = "<group>"; };
+		07A5699A24B2215900440CFC /* TransactionsAPIMockTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsAPIMockTests.swift; sourceTree = "<group>"; };
+		07A5699C24B221A400440CFC /* TourViewInteractorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TourViewInteractorTests.swift; sourceTree = "<group>"; };
+		07A5699E24B221D100440CFC /* TourViewStateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TourViewStateTests.swift; sourceTree = "<group>"; };
+		07A569A024B2254400440CFC /* TransactionListInteractorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionListInteractorTests.swift; sourceTree = "<group>"; };
+		07A569A224B2256500440CFC /* TransactionListStateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionListStateTests.swift; sourceTree = "<group>"; };
+		07A569A424B2258400440CFC /* TransactionDetailInteractorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionDetailInteractorTests.swift; sourceTree = "<group>"; };
+		07A569A624B2259D00440CFC /* TransactionDetailStateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionDetailStateTests.swift; sourceTree = "<group>"; };
+		07A569A824B225D600440CFC /* AppInteractorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppInteractorTests.swift; sourceTree = "<group>"; };
+		07A569AA24B225EB00440CFC /* AppStateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStateTests.swift; sourceTree = "<group>"; };
 		07F3C03224A6572200004A21 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		07F3C03424A65C0300004A21 /* TourViewState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TourViewState.swift; sourceTree = "<group>"; };
 		07F3C03924A7BC3800004A21 /* TourViewInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TourViewInteractor.swift; sourceTree = "<group>"; };
-		07F3C03D24A8F21000004A21 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
-		07F3C03F24A8F26900004A21 /* RootViewState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewState.swift; sourceTree = "<group>"; };
+		07F3C03D24A8F21000004A21 /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
+		07F3C03F24A8F26900004A21 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
 		07F8893D24A5F67100D922B0 /* Trial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Trial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07F8894024A5F67100D922B0 /* TrialApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrialApp.swift; sourceTree = "<group>"; };
 		07F8894224A5F67100D922B0 /* TourView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TourView.swift; sourceTree = "<group>"; };
@@ -134,9 +158,7 @@
 		076877F524A5F84800AC07A5 /* Features */ = {
 			isa = PBXGroup;
 			children = (
-				07F3C03D24A8F21000004A21 /* RootView.swift */,
-				07F3C03F24A8F26900004A21 /* RootViewState.swift */,
-				076877F824A6444100AC07A5 /* RootViewInteractor.swift */,
+				07A5698924B1E1DC00440CFC /* App */,
 				076877F624A5F86400AC07A5 /* Onboarding */,
 				076877F724A5F87000AC07A5 /* Transactions */,
 			);
@@ -184,6 +206,7 @@
 				07F8894924A5F67300D922B0 /* Info.plist */,
 				07F8894424A5F67300D922B0 /* Assets.xcassets */,
 				0787549324ACBEBB00979C48 /* transactions.json */,
+				07A5698F24B21F6D00440CFC /* transactions_mock.json */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -201,8 +224,8 @@
 			children = (
 				078754AE24AF8DFE00979C48 /* SubViews */,
 				076877FD24A64A6600AC07A5 /* TransactionListView.swift */,
-				0787548D24ACBC6D00979C48 /* TransactionListViewState.swift */,
-				0787548F24ACBC7E00979C48 /* TransactionListViewInteractor.swift */,
+				0787548D24ACBC6D00979C48 /* TransactionListState.swift */,
+				0787548F24ACBC7E00979C48 /* TransactionListInteractor.swift */,
 			);
 			path = TransactionList;
 			sourceTree = "<group>";
@@ -211,8 +234,8 @@
 			isa = PBXGroup;
 			children = (
 				078754A224AF8BB400979C48 /* TransactionDetailView.swift */,
-				078754A424AF8BC800979C48 /* TransactionDetailViewState.swift */,
-				078754A624AF8BD500979C48 /* TransactionDetailViewInteractor.swift */,
+				078754A424AF8BC800979C48 /* TransactionDetailState.swift */,
+				078754A624AF8BD500979C48 /* TransactionDetailInteractor.swift */,
 			);
 			path = TransactionDetail;
 			sourceTree = "<group>";
@@ -227,10 +250,83 @@
 			path = SubViews;
 			sourceTree = "<group>";
 		};
+		07A5698424B1E17E00440CFC /* DesignSystem */ = {
+			isa = PBXGroup;
+			children = (
+				07A5699324B220E500440CFC /* DateFormatterTests.swift */,
+				07A5699524B2210500440CFC /* ButtonStyleTests.swift */,
+			);
+			path = DesignSystem;
+			sourceTree = "<group>";
+		};
+		07A5698924B1E1DC00440CFC /* App */ = {
+			isa = PBXGroup;
+			children = (
+				07F3C03D24A8F21000004A21 /* AppView.swift */,
+				07F3C03F24A8F26900004A21 /* AppState.swift */,
+				076877F824A6444100AC07A5 /* AppInteractor.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		07A5698A24B1E21900440CFC /* TourView */ = {
+			isa = PBXGroup;
+			children = (
+				07A5699C24B221A400440CFC /* TourViewInteractorTests.swift */,
+				07A5699E24B221D100440CFC /* TourViewStateTests.swift */,
+			);
+			path = TourView;
+			sourceTree = "<group>";
+		};
+		07A5698B24B1E22100440CFC /* App */ = {
+			isa = PBXGroup;
+			children = (
+				07A569A824B225D600440CFC /* AppInteractorTests.swift */,
+				07A569AA24B225EB00440CFC /* AppStateTests.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		07A5698C24B1E32500440CFC /* Transactions */ = {
+			isa = PBXGroup;
+			children = (
+				07A5698E24B1E35000440CFC /* TransactionList */,
+				07A5698D24B1E34400440CFC /* TransactionDetail */,
+			);
+			path = Transactions;
+			sourceTree = "<group>";
+		};
+		07A5698D24B1E34400440CFC /* TransactionDetail */ = {
+			isa = PBXGroup;
+			children = (
+				07A569A424B2258400440CFC /* TransactionDetailInteractorTests.swift */,
+				07A569A624B2259D00440CFC /* TransactionDetailStateTests.swift */,
+			);
+			path = TransactionDetail;
+			sourceTree = "<group>";
+		};
+		07A5698E24B1E35000440CFC /* TransactionList */ = {
+			isa = PBXGroup;
+			children = (
+				07A569A024B2254400440CFC /* TransactionListInteractorTests.swift */,
+				07A569A224B2256500440CFC /* TransactionListStateTests.swift */,
+			);
+			path = TransactionList;
+			sourceTree = "<group>";
+		};
+		07A5699924B2213100440CFC /* NetworkService */ = {
+			isa = PBXGroup;
+			children = (
+				07A5699724B2212C00440CFC /* TransactionsAPITests.swift */,
+				07A5699A24B2215900440CFC /* TransactionsAPIMockTests.swift */,
+			);
+			path = NetworkService;
+			sourceTree = "<group>";
+		};
 		07F3C02B24A64C9E00004A21 /* Services */ = {
 			isa = PBXGroup;
 			children = (
-				07F3C02E24A64CC600004A21 /* BootService */,
+				07A5699924B2213100440CFC /* NetworkService */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -238,7 +334,9 @@
 		07F3C02C24A64CA400004A21 /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				07A5698B24B1E22100440CFC /* App */,
 				07F3C02D24A64CAE00004A21 /* Onboarding */,
+				07A5698C24B1E32500440CFC /* Transactions */,
 			);
 			path = Features;
 			sourceTree = "<group>";
@@ -246,16 +344,9 @@
 		07F3C02D24A64CAE00004A21 /* Onboarding */ = {
 			isa = PBXGroup;
 			children = (
+				07A5698A24B1E21900440CFC /* TourView */,
 			);
 			path = Onboarding;
-			sourceTree = "<group>";
-		};
-		07F3C02E24A64CC600004A21 /* BootService */ = {
-			isa = PBXGroup;
-			children = (
-				07F3C02F24A64CE500004A21 /* BootServiceTests.swift */,
-			);
-			path = BootService;
 			sourceTree = "<group>";
 		};
 		07F3C03124A6570E00004A21 /* DesignSystem */ = {
@@ -313,8 +404,9 @@
 		07F8895124A5F67300D922B0 /* TrialTests */ = {
 			isa = PBXGroup;
 			children = (
-				07F3C02C24A64CA400004A21 /* Features */,
+				07A5698424B1E17E00440CFC /* DesignSystem */,
 				07F3C02B24A64C9E00004A21 /* Services */,
+				07F3C02C24A64CA400004A21 /* Features */,
 				07F8895224A5F67300D922B0 /* TrialTests.swift */,
 				07F8895424A5F67300D922B0 /* Info.plist */,
 			);
@@ -434,6 +526,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07A5699024B21F6D00440CFC /* transactions_mock.json in Resources */,
 				0787549424ACBEBB00979C48 /* transactions.json in Resources */,
 				07F8894824A5F67300D922B0 /* Preview Assets.xcassets in Resources */,
 				07F8894524A5F67300D922B0 /* Assets.xcassets in Resources */,
@@ -482,10 +575,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				07F3C04024A8F26900004A21 /* RootViewState.swift in Sources */,
+				07F3C04024A8F26900004A21 /* AppState.swift in Sources */,
 				0787549924ACBF1C00979C48 /* Models.swift in Sources */,
-				0787549024ACBC7E00979C48 /* TransactionListViewInteractor.swift in Sources */,
-				07F3C03E24A8F21000004A21 /* RootView.swift in Sources */,
+				0787549024ACBC7E00979C48 /* TransactionListInteractor.swift in Sources */,
+				07F3C03E24A8F21000004A21 /* AppView.swift in Sources */,
 				0754038F24AF95E800C84E1B /* InroView.swift in Sources */,
 				078754AB24AF8DA200979C48 /* ErrorView.swift in Sources */,
 				0787549624ACBED400979C48 /* TransactionsAPI.swift in Sources */,
@@ -494,17 +587,17 @@
 				078754B024AF920300979C48 /* TransactionHelpers.swift in Sources */,
 				07F8894124A5F67100D922B0 /* TrialApp.swift in Sources */,
 				07F3C03A24A7BC3800004A21 /* TourViewInteractor.swift in Sources */,
-				078754A724AF8BD500979C48 /* TransactionDetailViewInteractor.swift in Sources */,
+				078754A724AF8BD500979C48 /* TransactionDetailInteractor.swift in Sources */,
 				078754AD24AF8DDC00979C48 /* TransactionListItem.swift in Sources */,
 				0787549F24AF7E4500979C48 /* ButtonStyle.swift in Sources */,
 				0787549D24AE4DA900979C48 /* DateFormatter.swift in Sources */,
 				0787549B24AE3D1500979C48 /* TransactionsAPIMock.swift in Sources */,
 				078754A924AF8D0E00979C48 /* LoadingView.swift in Sources */,
 				078754A324AF8BB400979C48 /* TransactionDetailView.swift in Sources */,
-				078754A524AF8BC800979C48 /* TransactionDetailViewState.swift in Sources */,
+				078754A524AF8BC800979C48 /* TransactionDetailState.swift in Sources */,
 				076877FE24A64A6600AC07A5 /* TransactionListView.swift in Sources */,
-				076877F924A6444100AC07A5 /* RootViewInteractor.swift in Sources */,
-				0787548E24ACBC6D00979C48 /* TransactionListViewState.swift in Sources */,
+				076877F924A6444100AC07A5 /* AppInteractor.swift in Sources */,
+				0787548E24ACBC6D00979C48 /* TransactionListState.swift in Sources */,
 				07F3C03524A65C0300004A21 /* TourViewState.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -513,8 +606,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07A569A724B2259E00440CFC /* TransactionDetailStateTests.swift in Sources */,
+				07A569A324B2256500440CFC /* TransactionListStateTests.swift in Sources */,
+				07A569A924B225D600440CFC /* AppInteractorTests.swift in Sources */,
+				07A5699B24B2215900440CFC /* TransactionsAPIMockTests.swift in Sources */,
+				07A5699F24B221D100440CFC /* TourViewStateTests.swift in Sources */,
+				07A5699D24B221A400440CFC /* TourViewInteractorTests.swift in Sources */,
+				07A569AB24B225EB00440CFC /* AppStateTests.swift in Sources */,
+				07A569A524B2258400440CFC /* TransactionDetailInteractorTests.swift in Sources */,
+				07A5699624B2210500440CFC /* ButtonStyleTests.swift in Sources */,
+				07A5699424B220E500440CFC /* DateFormatterTests.swift in Sources */,
 				07F8895324A5F67300D922B0 /* TrialTests.swift in Sources */,
-				07F3C03024A64CE500004A21 /* BootServiceTests.swift in Sources */,
+				07A5699824B2212C00440CFC /* TransactionsAPITests.swift in Sources */,
+				07A569A124B2254400440CFC /* TransactionListInteractorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

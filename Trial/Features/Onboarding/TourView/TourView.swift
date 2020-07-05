@@ -10,11 +10,11 @@ import SwiftUI
 struct TourView: View {
     @ObservedObject private var state: TourViewState
     private var interactor: TourViewInteractable
-    private var rootInteractor: RootViewInteractable
+    private var rootInteractor: AppInteractable
     
     init(state: TourViewState,
          interactor: TourViewInteractable,
-         rootViewInteractor: RootViewInteractable) {
+         rootViewInteractor: AppInteractable) {
         
         self.state = state
         self.interactor = interactor
@@ -62,8 +62,8 @@ struct TourView_Previews: PreviewProvider {
     static var previews: some View {
         let state = TourViewState()
         let interactor = TourViewInteractor()
-        let rootState = RootViewState()
-        let rootInteractor = RootViewInteractor(state: rootState)
+        let rootState = AppState()
+        let rootInteractor = AppInteractor(state: rootState)
         return TourView(state: state,
                         interactor: interactor,
                         rootViewInteractor: rootInteractor)

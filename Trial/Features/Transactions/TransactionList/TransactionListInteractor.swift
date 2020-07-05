@@ -1,5 +1,5 @@
 //
-//  TransactionListViewInteractor.swift
+//  TransactionListInteractor.swift
 //  Trial
 //
 //  Created by Milos on 7/1/20.
@@ -8,16 +8,16 @@
 import Foundation
 import SwiftUI
 
-protocol TransactionListViewInteractable {
+protocol TransactionListInteractable {
     func getTransactions()
 }
 
-class TransactionListViewInteractor: TransactionListViewInteractable {
+class TransactionListInteractor: TransactionListInteractable {
     
-    private let state: TransactionListViewState
+    private let state: TransactionListState
     private let networkService: TransactionsAPIProtocol
     
-    init(state: TransactionListViewState,
+    init(state: TransactionListState,
          networkService: TransactionsAPIProtocol) {
         self.state = state
         self.networkService = networkService

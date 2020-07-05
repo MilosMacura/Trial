@@ -1,5 +1,5 @@
 //
-//  TransactionListViewState.swift
+//  TransactionListState.swift
 //  Trial
 //
 //  Created by Milos on 7/1/20.
@@ -14,7 +14,7 @@ enum LoadingState {
     case loadingFailed
 }
 
-class TransactionListViewState: ObservableObject {
+class TransactionListState: ObservableObject {
     @Published var transactions = [Transaction]()
     @Published var transactionValueSum = "0.0"
     @Published var loadingState: LoadingState = .loadingInProgress

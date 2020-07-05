@@ -7,7 +7,7 @@
 
 import Foundation
 
-class TransactionDetailViewState: ObservableObject {
+class TransactionDetailState: ObservableObject {
     @Published var transaction: Transaction
     
     init(transaction: Transaction) {

@@ -5,7 +5,8 @@
 //  Created by Milos on 7/3/20.
 //
 
-import Foundation
+import SwiftUI
+
 class TransactionHelper {
     static func imageForType(_ type: String) -> String {
         switch type {
@@ -21,6 +22,19 @@ class TransactionHelper {
             return "plus"
         default:
             return "mail"
+        }
+    }
+    
+    static func amountColor(value: NSDecimalNumber) -> Color {
+        switch Double(truncating: value) {
+        case 0:
+            return Color.clear
+        case let amount where amount < 0:
+            return Color.black
+        case let amount where amount > 0:
+            return Color.green
+        default:
+            return Color.black
         }
     }
 }

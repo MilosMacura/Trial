@@ -9,11 +9,11 @@ import SwiftUI
 
 struct TransactionListView: View {
     
-    @ObservedObject private var state: TransactionListViewState
-    private var interactor: TransactionListViewInteractable
+    @ObservedObject private var state: TransactionListState
+    private var interactor: TransactionListInteractable
     
-    init(state: TransactionListViewState,
-         interactor: TransactionListViewInteractable) {
+    init(state: TransactionListState,
+         interactor: TransactionListInteractable) {
         self.state = state
         self.interactor = interactor
     }
@@ -27,8 +27,8 @@ struct TransactionListView: View {
             case .loadingFinished:
                 NavigationView {
                     List(state.transactions) { transaction in
-                        let state = TransactionDetailViewState(transaction: transaction)
-                        let interactor = TransactionDetailViewInteractor(state: state)
+                        let state = TransactionDetailState(transaction: transaction)
+                        let interactor = TransactionDetailInteractor(state: state)
                         
                         NavigationLink(destination: TransactionDetailView(state: state,
                                                                           interactor: interactor)) {
@@ -48,10 +48,10 @@ struct TransactionListView: View {
 
 struct TransactionList_Previews: PreviewProvider {
     static var previews: some View {
-        let state = TransactionListViewState()
+        let state = TransactionListState()
         let networkService = TransactionsAPIMock()
-        let interactor = TransactionListViewInteractor(state: state,
-                                                       networkService: networkService)
+        let interactor = TransactionListInteractor(state: state,
+                                                   networkService: networkService)
         return Group {
             TransactionListView(state: state,
                                 interactor: interactor)

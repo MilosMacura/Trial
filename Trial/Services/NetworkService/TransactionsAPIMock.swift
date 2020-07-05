@@ -11,7 +11,7 @@ import Foundation
 
 public final class TransactionsAPIMock: TransactionsAPIProtocol {
     func loadTransactions(completion: @escaping (Result<[Transaction], APIError>) -> Void) {
-        let file = Bundle(for: TransactionsAPI.self).path(forResource: "transactions", ofType: "json")!
+        let file = Bundle(for: TransactionsAPI.self).path(forResource: "transactions_mock", ofType: "json")!
         do {
             let data = try Data(contentsOf: URL(fileURLWithPath: file), options: [])
             let decoder = JSONDecoder()

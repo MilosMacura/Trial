@@ -8,11 +8,11 @@
 import SwiftUI
 
 struct TransactionDetailView: View {
-    @ObservedObject var state: TransactionDetailViewState
-    private let interactor: TransactionDetailViewInteractable
+    @ObservedObject var state: TransactionDetailState
+    private let interactor: TransactionDetailInteractable
     
-    init(state: TransactionDetailViewState,
-         interactor: TransactionDetailViewInteractable) {
+    init(state: TransactionDetailState,
+         interactor: TransactionDetailInteractable) {
         self.state = state
         self.interactor = interactor
     }

@@ -9,21 +9,9 @@ import SwiftUI
 
 struct TransactionListItem: View {
     @ScaledMetric var iconCircleSize: CGFloat = 40
-    var amountColor: Color {
-        switch Double(truncating: transaction.amount.decimalValue) {
-        case 0:
-            return Color.clear
-        case let amount where amount < 0:
-            return Color.black
-        case let amount where amount > 0:
-            return Color.green
-        default:
-            return Color.black
-        }
-    }
     
     let transaction: Transaction
-    let interactor: TransactionListViewInteractable
+    let interactor: TransactionListInteractable
     
     var body: some View {
         HStack {
@@ -55,7 +43,7 @@ struct TransactionListItem: View {
                 HStack {
                     Spacer()
                     Text(transaction.amount.decimalValue.stringValue + " " + transaction.amount.currency)
-                        .foregroundColor(amountColor)
+                        .foregroundColor(TransactionHelper.amountColor(value: transaction.amount.decimalValue))
                 }
             }
         }

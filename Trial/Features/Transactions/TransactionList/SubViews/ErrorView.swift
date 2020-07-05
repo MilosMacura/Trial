@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ErrorView: View {
-    let interactor: TransactionListViewInteractable
+    let interactor: TransactionListInteractable
     var body: some View {
         VStack {
             Spacer()
