@@ -5,21 +5,32 @@
 //  Created by Milos on 7/5/20.
 //
 
+@testable import Trial
 import XCTest
+
+// swiftlint:disable implicitly_unwrapped_optional
 
 class TransactionListStateTests: XCTestCase {
 
+    var state: TransactionListState!
+    var interactor: TransactionListInteractable!
+    var networkService: TransactionsAPIProtocol!
+    
     override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+        self.state = TransactionListState()
+        self.networkService = TransactionsAPIMock()
+        self.interactor = TransactionListInteractor(state: state,
+                                                    networkService: networkService)
     }
 
     override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
+        self.state = nil
     }
 
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+    func testCorrectSum() {
+        XCTAssert(self.state.transactionValueSum == "0")
+        interactor.getTransactions()
+        XCTAssert(self.state.transactionValueSum == "2")
     }
 
     func testPerformanceExample() throws {

@@ -5,28 +5,31 @@
 //  Created by Milos on 7/5/20.
 //
 
+@testable import Trial
 import XCTest
+
+// swiftlint:disable implicitly_unwrapped_optional
 
 class TransactionsAPIMockTests: XCTestCase {
 
+    var networkService: TransactionsAPIProtocol!
+    
     override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+        self.networkService = TransactionsAPIMock()
     }
 
     override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
+        self.networkService = nil
     }
 
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-    }
-
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
+    func testMockNetworkService() throws {
+        networkService.loadTransactions { result in
+            switch result {
+            case .success(let transactions):
+                XCTAssert(transactions.count == 3)
+            case .failure(let error):
+                XCTAssert(error == .randomError)
+            }
         }
     }
-
 }

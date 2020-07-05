@@ -43,6 +43,9 @@ struct TransactionListView: View {
                 ErrorView(interactor: self.interactor)
             }
         }
+        .onAppear {
+            interactor.getTransactions()
+        }
     }
 }
 

@@ -5,28 +5,39 @@
 //  Created by Milos on 7/5/20.
 //
 
+import SwiftUI
+@testable import Trial
 import XCTest
+
+// swiftlint:disable implicitly_unwrapped_optional
 
 class AppInteractorTests: XCTestCase {
 
+    var state: AppState!
+    var interactor: AppInteractor!
+    
     override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+        self.state = AppState()
+        self.interactor = AppInteractor(state: state)
     }
 
     override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
+        self.state = nil
+        self.interactor = nil
     }
 
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+    func testShowTransactions() {
+        state.activeViewType = .tourView
+        interactor.showTransactionList()
+        XCTAssert(state.activeViewType == .transactionScreen)
     }
-
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
+    
+    func testFirstRun() {
+        
+        let state = AppState()
+        state.isFirstRun = true
+        _ = AppInteractor(state: state)
+        XCTAssert(state.isFirstRun == false)
     }
 
 }

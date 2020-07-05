@@ -7,9 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		07519EF124B245CD0066C7D9 /* TransactionAPIFailMock.swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07519EF024B245CD0066C7D9 /* TransactionAPIFailMock.swift.swift */; };
 		0754038F24AF95E800C84E1B /* InroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0754038E24AF95E800C84E1B /* InroView.swift */; };
 		076877F924A6444100AC07A5 /* AppInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076877F824A6444100AC07A5 /* AppInteractor.swift */; };
 		076877FE24A64A6600AC07A5 /* TransactionListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076877FD24A64A6600AC07A5 /* TransactionListView.swift */; };
+		0779495924B24FD5002EA6FF /* JSONLoaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0779495824B24FD5002EA6FF /* JSONLoaderTests.swift */; };
+		0784C51724B270570089302B /* TransactionListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0784C51624B270570089302B /* TransactionListUITests.swift */; };
+		0784C51924B2706B0089302B /* TransactionDetailUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0784C51824B2706B0089302B /* TransactionDetailUITests.swift */; };
+		0784C52024B27E7C0089302B /* UITestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0784C51F24B27E7C0089302B /* UITestHelpers.swift */; };
+		0784C52224B280B20089302B /* AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0784C52124B280B20089302B /* AppUITests.swift */; };
 		0787548E24ACBC6D00979C48 /* TransactionListState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0787548D24ACBC6D00979C48 /* TransactionListState.swift */; };
 		0787549024ACBC7E00979C48 /* TransactionListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0787548F24ACBC7E00979C48 /* TransactionListInteractor.swift */; };
 		0787549424ACBEBB00979C48 /* transactions.json in Resources */ = {isa = PBXBuildFile; fileRef = 0787549324ACBEBB00979C48 /* transactions.json */; };
@@ -27,17 +33,16 @@
 		078754B024AF920300979C48 /* TransactionHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078754AF24AF920300979C48 /* TransactionHelpers.swift */; };
 		07A5699024B21F6D00440CFC /* transactions_mock.json in Resources */ = {isa = PBXBuildFile; fileRef = 07A5698F24B21F6D00440CFC /* transactions_mock.json */; };
 		07A5699424B220E500440CFC /* DateFormatterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A5699324B220E500440CFC /* DateFormatterTests.swift */; };
-		07A5699624B2210500440CFC /* ButtonStyleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A5699524B2210500440CFC /* ButtonStyleTests.swift */; };
 		07A5699824B2212C00440CFC /* TransactionsAPITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A5699724B2212C00440CFC /* TransactionsAPITests.swift */; };
 		07A5699B24B2215900440CFC /* TransactionsAPIMockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A5699A24B2215900440CFC /* TransactionsAPIMockTests.swift */; };
-		07A5699D24B221A400440CFC /* TourViewInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A5699C24B221A400440CFC /* TourViewInteractorTests.swift */; };
 		07A5699F24B221D100440CFC /* TourViewStateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A5699E24B221D100440CFC /* TourViewStateTests.swift */; };
 		07A569A124B2254400440CFC /* TransactionListInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A569A024B2254400440CFC /* TransactionListInteractorTests.swift */; };
 		07A569A324B2256500440CFC /* TransactionListStateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A569A224B2256500440CFC /* TransactionListStateTests.swift */; };
 		07A569A524B2258400440CFC /* TransactionDetailInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A569A424B2258400440CFC /* TransactionDetailInteractorTests.swift */; };
 		07A569A724B2259E00440CFC /* TransactionDetailStateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A569A624B2259D00440CFC /* TransactionDetailStateTests.swift */; };
 		07A569A924B225D600440CFC /* AppInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A569A824B225D600440CFC /* AppInteractorTests.swift */; };
-		07A569AB24B225EB00440CFC /* AppStateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A569AA24B225EB00440CFC /* AppStateTests.swift */; };
+		07A569AD24B228EC00440CFC /* JSONLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A569AC24B228EC00440CFC /* JSONLoader.swift */; };
+		07A569AF24B22B1E00440CFC /* TransactionAPIFailMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A569AE24B22B1E00440CFC /* TransactionAPIFailMock.swift */; };
 		07F3C03324A6572200004A21 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F3C03224A6572200004A21 /* Colors.swift */; };
 		07F3C03524A65C0300004A21 /* TourViewState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F3C03424A65C0300004A21 /* TourViewState.swift */; };
 		07F3C03A24A7BC3800004A21 /* TourViewInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F3C03924A7BC3800004A21 /* TourViewInteractor.swift */; };
@@ -47,8 +52,7 @@
 		07F8894324A5F67100D922B0 /* TourView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F8894224A5F67100D922B0 /* TourView.swift */; };
 		07F8894524A5F67300D922B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07F8894424A5F67300D922B0 /* Assets.xcassets */; };
 		07F8894824A5F67300D922B0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07F8894724A5F67300D922B0 /* Preview Assets.xcassets */; };
-		07F8895324A5F67300D922B0 /* TrialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F8895224A5F67300D922B0 /* TrialTests.swift */; };
-		07F8895E24A5F67300D922B0 /* TrialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F8895D24A5F67300D922B0 /* TrialUITests.swift */; };
+		07F8895E24A5F67300D922B0 /* TourUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F8895D24A5F67300D922B0 /* TourUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,9 +73,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		07519EF024B245CD0066C7D9 /* TransactionAPIFailMock.swift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionAPIFailMock.swift.swift; sourceTree = "<group>"; };
 		0754038E24AF95E800C84E1B /* InroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InroView.swift; sourceTree = "<group>"; };
 		076877F824A6444100AC07A5 /* AppInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppInteractor.swift; sourceTree = "<group>"; };
 		076877FD24A64A6600AC07A5 /* TransactionListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionListView.swift; sourceTree = "<group>"; };
+		0779495824B24FD5002EA6FF /* JSONLoaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONLoaderTests.swift; sourceTree = "<group>"; };
+		0784C51624B270570089302B /* TransactionListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionListUITests.swift; sourceTree = "<group>"; };
+		0784C51824B2706B0089302B /* TransactionDetailUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionDetailUITests.swift; sourceTree = "<group>"; };
+		0784C51F24B27E7C0089302B /* UITestHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITestHelpers.swift; sourceTree = "<group>"; };
+		0784C52124B280B20089302B /* AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUITests.swift; sourceTree = "<group>"; };
 		0787548D24ACBC6D00979C48 /* TransactionListState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionListState.swift; sourceTree = "<group>"; };
 		0787548F24ACBC7E00979C48 /* TransactionListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionListInteractor.swift; sourceTree = "<group>"; };
 		0787549324ACBEBB00979C48 /* transactions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = transactions.json; sourceTree = "<group>"; };
@@ -89,17 +99,16 @@
 		078754AF24AF920300979C48 /* TransactionHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionHelpers.swift; sourceTree = "<group>"; };
 		07A5698F24B21F6D00440CFC /* transactions_mock.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = transactions_mock.json; sourceTree = "<group>"; };
 		07A5699324B220E500440CFC /* DateFormatterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatterTests.swift; sourceTree = "<group>"; };
-		07A5699524B2210500440CFC /* ButtonStyleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyleTests.swift; sourceTree = "<group>"; };
 		07A5699724B2212C00440CFC /* TransactionsAPITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsAPITests.swift; sourceTree = "<group>"; };
 		07A5699A24B2215900440CFC /* TransactionsAPIMockTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsAPIMockTests.swift; sourceTree = "<group>"; };
-		07A5699C24B221A400440CFC /* TourViewInteractorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TourViewInteractorTests.swift; sourceTree = "<group>"; };
 		07A5699E24B221D100440CFC /* TourViewStateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TourViewStateTests.swift; sourceTree = "<group>"; };
 		07A569A024B2254400440CFC /* TransactionListInteractorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionListInteractorTests.swift; sourceTree = "<group>"; };
 		07A569A224B2256500440CFC /* TransactionListStateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionListStateTests.swift; sourceTree = "<group>"; };
 		07A569A424B2258400440CFC /* TransactionDetailInteractorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionDetailInteractorTests.swift; sourceTree = "<group>"; };
 		07A569A624B2259D00440CFC /* TransactionDetailStateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionDetailStateTests.swift; sourceTree = "<group>"; };
 		07A569A824B225D600440CFC /* AppInteractorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppInteractorTests.swift; sourceTree = "<group>"; };
-		07A569AA24B225EB00440CFC /* AppStateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStateTests.swift; sourceTree = "<group>"; };
+		07A569AC24B228EC00440CFC /* JSONLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONLoader.swift; sourceTree = "<group>"; };
+		07A569AE24B22B1E00440CFC /* TransactionAPIFailMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionAPIFailMock.swift; sourceTree = "<group>"; };
 		07F3C03224A6572200004A21 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		07F3C03424A65C0300004A21 /* TourViewState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TourViewState.swift; sourceTree = "<group>"; };
 		07F3C03924A7BC3800004A21 /* TourViewInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TourViewInteractor.swift; sourceTree = "<group>"; };
@@ -112,10 +121,9 @@
 		07F8894724A5F67300D922B0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		07F8894924A5F67300D922B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		07F8894E24A5F67300D922B0 /* TrialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrialTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		07F8895224A5F67300D922B0 /* TrialTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrialTests.swift; sourceTree = "<group>"; };
 		07F8895424A5F67300D922B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		07F8895924A5F67300D922B0 /* TrialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrialUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		07F8895D24A5F67300D922B0 /* TrialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrialUITests.swift; sourceTree = "<group>"; };
+		07F8895D24A5F67300D922B0 /* TourUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TourUITests.swift; sourceTree = "<group>"; };
 		07F8895F24A5F67300D922B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -191,11 +199,54 @@
 			path = Services;
 			sourceTree = "<group>";
 		};
+		0784C51A24B2707E0089302B /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				0784C51B24B270870089302B /* Tour */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		0784C51B24B270870089302B /* Tour */ = {
+			isa = PBXGroup;
+			children = (
+				07F8895D24A5F67300D922B0 /* TourUITests.swift */,
+			);
+			path = Tour;
+			sourceTree = "<group>";
+		};
+		0784C51C24B270900089302B /* Transactions */ = {
+			isa = PBXGroup;
+			children = (
+				0784C51E24B270AB0089302B /* TransactionList */,
+				0784C51D24B2709A0089302B /* TransactionDetail */,
+			);
+			path = Transactions;
+			sourceTree = "<group>";
+		};
+		0784C51D24B2709A0089302B /* TransactionDetail */ = {
+			isa = PBXGroup;
+			children = (
+				0784C51824B2706B0089302B /* TransactionDetailUITests.swift */,
+			);
+			path = TransactionDetail;
+			sourceTree = "<group>";
+		};
+		0784C51E24B270AB0089302B /* TransactionList */ = {
+			isa = PBXGroup;
+			children = (
+				0784C51624B270570089302B /* TransactionListUITests.swift */,
+			);
+			path = TransactionList;
+			sourceTree = "<group>";
+		};
 		0787549124ACBD7C00979C48 /* NetworkService */ = {
 			isa = PBXGroup;
 			children = (
 				0787549524ACBED400979C48 /* TransactionsAPI.swift */,
 				0787549A24AE3D1500979C48 /* TransactionsAPIMock.swift */,
+				07A569AE24B22B1E00440CFC /* TransactionAPIFailMock.swift */,
+				07A569AC24B228EC00440CFC /* JSONLoader.swift */,
 			);
 			path = NetworkService;
 			sourceTree = "<group>";
@@ -254,7 +305,6 @@
 			isa = PBXGroup;
 			children = (
 				07A5699324B220E500440CFC /* DateFormatterTests.swift */,
-				07A5699524B2210500440CFC /* ButtonStyleTests.swift */,
 			);
 			path = DesignSystem;
 			sourceTree = "<group>";
@@ -272,7 +322,6 @@
 		07A5698A24B1E21900440CFC /* TourView */ = {
 			isa = PBXGroup;
 			children = (
-				07A5699C24B221A400440CFC /* TourViewInteractorTests.swift */,
 				07A5699E24B221D100440CFC /* TourViewStateTests.swift */,
 			);
 			path = TourView;
@@ -282,7 +331,6 @@
 			isa = PBXGroup;
 			children = (
 				07A569A824B225D600440CFC /* AppInteractorTests.swift */,
-				07A569AA24B225EB00440CFC /* AppStateTests.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -319,6 +367,8 @@
 			children = (
 				07A5699724B2212C00440CFC /* TransactionsAPITests.swift */,
 				07A5699A24B2215900440CFC /* TransactionsAPIMockTests.swift */,
+				07519EF024B245CD0066C7D9 /* TransactionAPIFailMock.swift.swift */,
+				0779495824B24FD5002EA6FF /* JSONLoaderTests.swift */,
 			);
 			path = NetworkService;
 			sourceTree = "<group>";
@@ -407,7 +457,6 @@
 				07A5698424B1E17E00440CFC /* DesignSystem */,
 				07F3C02B24A64C9E00004A21 /* Services */,
 				07F3C02C24A64CA400004A21 /* Features */,
-				07F8895224A5F67300D922B0 /* TrialTests.swift */,
 				07F8895424A5F67300D922B0 /* Info.plist */,
 			);
 			path = TrialTests;
@@ -416,7 +465,10 @@
 		07F8895C24A5F67300D922B0 /* TrialUITests */ = {
 			isa = PBXGroup;
 			children = (
-				07F8895D24A5F67300D922B0 /* TrialUITests.swift */,
+				0784C52124B280B20089302B /* AppUITests.swift */,
+				0784C51F24B27E7C0089302B /* UITestHelpers.swift */,
+				0784C51A24B2707E0089302B /* Onboarding */,
+				0784C51C24B270900089302B /* Transactions */,
 				07F8895F24A5F67300D922B0 /* Info.plist */,
 			);
 			path = TrialUITests;
@@ -584,6 +636,7 @@
 				0787549624ACBED400979C48 /* TransactionsAPI.swift in Sources */,
 				07F8894324A5F67100D922B0 /* TourView.swift in Sources */,
 				07F3C03324A6572200004A21 /* Colors.swift in Sources */,
+				07A569AF24B22B1E00440CFC /* TransactionAPIFailMock.swift in Sources */,
 				078754B024AF920300979C48 /* TransactionHelpers.swift in Sources */,
 				07F8894124A5F67100D922B0 /* TrialApp.swift in Sources */,
 				07F3C03A24A7BC3800004A21 /* TourViewInteractor.swift in Sources */,
@@ -599,6 +652,7 @@
 				076877F924A6444100AC07A5 /* AppInteractor.swift in Sources */,
 				0787548E24ACBC6D00979C48 /* TransactionListState.swift in Sources */,
 				07F3C03524A65C0300004A21 /* TourViewState.swift in Sources */,
+				07A569AD24B228EC00440CFC /* JSONLoader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -606,17 +660,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0779495924B24FD5002EA6FF /* JSONLoaderTests.swift in Sources */,
 				07A569A724B2259E00440CFC /* TransactionDetailStateTests.swift in Sources */,
 				07A569A324B2256500440CFC /* TransactionListStateTests.swift in Sources */,
 				07A569A924B225D600440CFC /* AppInteractorTests.swift in Sources */,
+				07519EF124B245CD0066C7D9 /* TransactionAPIFailMock.swift.swift in Sources */,
 				07A5699B24B2215900440CFC /* TransactionsAPIMockTests.swift in Sources */,
 				07A5699F24B221D100440CFC /* TourViewStateTests.swift in Sources */,
-				07A5699D24B221A400440CFC /* TourViewInteractorTests.swift in Sources */,
-				07A569AB24B225EB00440CFC /* AppStateTests.swift in Sources */,
 				07A569A524B2258400440CFC /* TransactionDetailInteractorTests.swift in Sources */,
-				07A5699624B2210500440CFC /* ButtonStyleTests.swift in Sources */,
 				07A5699424B220E500440CFC /* DateFormatterTests.swift in Sources */,
-				07F8895324A5F67300D922B0 /* TrialTests.swift in Sources */,
 				07A5699824B2212C00440CFC /* TransactionsAPITests.swift in Sources */,
 				07A569A124B2254400440CFC /* TransactionListInteractorTests.swift in Sources */,
 			);
@@ -626,7 +678,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				07F8895E24A5F67300D922B0 /* TrialUITests.swift in Sources */,
+				0784C51924B2706B0089302B /* TransactionDetailUITests.swift in Sources */,
+				07F8895E24A5F67300D922B0 /* TourUITests.swift in Sources */,
+				0784C51724B270570089302B /* TransactionListUITests.swift in Sources */,
+				0784C52224B280B20089302B /* AppUITests.swift in Sources */,
+				0784C52024B27E7C0089302B /* UITestHelpers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

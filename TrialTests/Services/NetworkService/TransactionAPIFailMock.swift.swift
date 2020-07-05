@@ -1,43 +1,37 @@
 //
-//  TransactionsAPITests.swift
+//  TransactionAPIFailMock.swift.swift
 //  TrialTests
 //
 //  Created by Milos on 7/5/20.
 //
+
+import Foundation
 
 @testable import Trial
 import XCTest
 
 // swiftlint:disable implicitly_unwrapped_optional
 
-class TransactionsAPITests: XCTestCase {
+class TransactionsAPIFailMockTests: XCTestCase {
 
     var networkService: TransactionsAPIProtocol!
     
     override func setUpWithError() throws {
-        self.networkService = TransactionsAPI()
+        self.networkService = TransactionsAPIFailMock()
     }
 
     override func tearDownWithError() throws {
         self.networkService = nil
     }
 
-    func testLoadTransactions() throws {
+    func testMockNetworkService() throws {
         networkService.loadTransactions { result in
             switch result {
             case .success(let transactions):
-                XCTAssert(transactions.count == 45)
+                XCTAssert(transactions.count == 3)
             case .failure(let error):
                 XCTAssert(error == .randomError)
             }
         }
     }
-
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
-    }
-
 }

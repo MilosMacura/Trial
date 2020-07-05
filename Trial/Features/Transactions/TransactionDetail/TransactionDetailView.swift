@@ -31,3 +31,26 @@ struct TransactionDetailView: View {
         .padding()
     }
 }
+
+struct TransactionDetailView_Previews: PreviewProvider {
+    
+    //swiftlint:disable force_unwrapping
+    
+    static var previews: some View {
+        
+        var transaction: Trial.Transaction?
+        
+        let transactionsResult = JSONLoader.readTransactions(fileName: "transactions_mock")
+        switch transactionsResult {
+        case .success(let transactions):
+            transaction = transactions[0]
+        default:
+            transaction = nil
+        }
+        
+        let state = TransactionDetailState(transaction: transaction!)
+        let interactor = TransactionDetailInteractor(state: state)
+        
+        return TransactionDetailView(state: state, interactor: interactor)
+    }
+}

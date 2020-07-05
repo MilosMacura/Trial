@@ -21,3 +21,17 @@ struct IntroView: View {
         }
     }
 }
+
+struct InroView_Previews: PreviewProvider {
+    static var previews: some View {
+        let text = "Intro View"
+        let systemImage = "checkmark"
+        return
+            ZStack {
+                Color.pleasantBlue
+                    .edgesIgnoringSafeArea(.all)
+                IntroView(text: text,
+                          systemImage: systemImage)
+            }
+    }
+}

@@ -7,20 +7,8 @@
 
 import Foundation
 
-// swiftlint:disable force_unwrapping
-
 public final class TransactionsAPIMock: TransactionsAPIProtocol {
     func loadTransactions(completion: @escaping (Result<[Transaction], APIError>) -> Void) {
-        let file = Bundle(for: TransactionsAPI.self).path(forResource: "transactions_mock", ofType: "json")!
-        do {
-            let data = try Data(contentsOf: URL(fileURLWithPath: file), options: [])
-            let decoder = JSONDecoder()
-            decoder.dateDecodingStrategy = .millisecondsSince1970
-            let transactionResponse = try decoder.decode(TransactionResponse.self, from: data)
-            completion(.success(transactionResponse.collection))
-        } catch let error {
-            assertionFailure("Got error \(error) while parsing transactions.")
-            completion(.failure(.parsingError))
-        }
+        completion(JSONLoader.readTransactions(fileName: "transactions_mock"))
     }
 }

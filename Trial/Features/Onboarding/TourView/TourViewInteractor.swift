@@ -8,11 +8,9 @@
 import Foundation
 
 protocol TourViewInteractable {
-    func skipIntro()
+    
 }
 
 class TourViewInteractor: TourViewInteractable {
-    func skipIntro() {
-        print("skip intro")
-    }
+    
 }

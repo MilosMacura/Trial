@@ -25,8 +25,9 @@ struct AppView: View {
                          rootViewInteractor: interactor)
             case ScreenName.transactionScreen:
                 let state = TransactionListState()
+                let networkService = TransactionsAPI()
                 let interactor = TransactionListInteractor(state: state,
-                                                           networkService: TransactionsAPI())
+                                                           networkService: networkService)
                 TransactionListView(state: state,
                                     interactor: interactor)
             }

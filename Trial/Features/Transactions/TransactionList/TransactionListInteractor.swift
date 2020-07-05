@@ -21,7 +21,6 @@ class TransactionListInteractor: TransactionListInteractable {
          networkService: TransactionsAPIProtocol) {
         self.state = state
         self.networkService = networkService
-        self.getTransactions()
     }
     
     //TODO: fix animations on loading end

@@ -1,449 +1,484 @@
 {
-  "collection" : [ {
-    "id" : "D3E0BD0330B14C01",
-    "title" : "MA 10 Wiener Kindergaerten",
-    "subtitle" : "MA 10 Wiener Kindergaerten/Wilma Ri",
-    "sender" : {
-      "iban" : "AT601200051428010635",
-      "bic" : "BKAUATWWXXX",
-      "number" : null,
-      "bankCode" : null,
-      "prefix" : "",
-      "countryCode" : "AT"
-    },
-    "senderName" : "Stadt Wien",
-    "senderOriginator" : "MA 10 Wiener Kindergaerten",
-    "senderReference" : "002202296141",
-    "senderBankReference" : null,
-    "receiver" : {
-      "iban" : "AT552011182743536500",
-      "bic" : "GIBAATWWXXX",
-      "number" : "82743536500",
-      "bankCode" : "20111",
-      "prefix" : "",
-      "countryCode" : "AT"
-    },
-    "receiverName" : "Birgit Anna Mayer",
-    "receiverReference" : "",
-    "creditorId" : "AT03MAG00000009679",
-    "amount" : {
-      "value" : -100,
-      "precision" : 2,
-      "currency" : "EUR"
-    },
-    "amountSender" : {
-      "value" : -100,
-      "precision" : 2,
-      "currency" : "EUR"
-    },
-    "amountAccounting" : null,
-    "bookingDate" : 1518390000000,
-    "valuationDate" : 1518390000000,
-    "importDate" : 1518406380857,
-    "inputDate" : null,
-    "dueDate" : null,
-    "exchangeDate" : null,
-    "insertTimestamp" : 1518409955821,
-    "reference" : "1200018020810550037217259240",
-    "originatorSystem" : "SD*/EZG",
-    "additionalTexts" : {
-      "text1" : "MA 10 Wiener Kindergaerten/Wilma Ri",
-      "text2" : "MA 10 Wiener Kindergaerten",
-      "text3" : "MDID:00206579811000001",
-      "lineItems" : [ "MA 10 Wiener Kindergaerten/Wilma Ri", "nner/Elternbeitraege Wiener Kinderg", "aert/PDezember 2017 V121282892" ],
-      "constantSymbol" : null,
-      "variableSymbol" : null,
-      "specificSymbol" : null
-    },
-    "note" : null,
-    "bookingType" : "DU-BK-DD",
-    "bookingTypeTranslation" : null,
-    "orderRole" : "RECEIVER",
-    "flags" : [ "IS_VISIBLE", "IS_BAL_RELEVANT", "ALLOWS_REPLY" ],
-    "orderCategory" : "DOMESTIC",
-    "cardId" : "0000000000000000",
-    "maskedCardNumber" : "",
-    "invoiceId" : null,
-    "transactionDate" : null,
-    "location" : "",
-    "foreignExchangeFee" : {
-      "value" : -100,
-      "precision" : 2,
-      "currency" : "EUR"
-    },
-    "transactionFee" : {
-      "value" : -100,
-      "precision" : 2,
-      "currency" : "EUR"
-    },
-    "exchangeRateValue" : 0,
-    "exchangeRatePrecision" : 7,
-    "cardType" : "",
-    "mcc" : "",
-    "country" : "",
-    "paymentType" : "",
-    "cardCashbackAmount" : null,
-    "cardBrand" : null,
-    "virtualCard" : {
-      "virtualCardNumber" : "",
-      "deviceName" : "",
-      "mobilePaymentApplicationName" : ""
-    },
-    "merchantName" : null,
-    "partnerName" : "Stadt Wien",
-    "partnerOriginator" : "MA 10 Wiener Kindergaerten",
-    "partnerAddress" : [ "Neues Rathaus 1", "1080 Wien" ],
-    "partner" : {
-      "iban" : "AT601200051428010635",
-      "bic" : "BKAUATWWXXX",
-      "number" : null,
-      "bankCode" : null,
-      "prefix" : "",
-      "countryCode" : "AT"
-    },
-    "partnerData" : null,
-    "logo" : {
-      "id" : null,
-      "uri" : "icon:ico-pfm-education"
-    },
-    "owner" : "CF910E8B7B270811",
-    "balance" : {
-      "value" : -100,
-      "precision" : 2,
-      "currency" : "EUR"
-    },
-    "txType" : "CASHCOLLECTION",
-    "txDirection" : "OUTGOING",
-    "cardInfo" : null,
-    "atmData" : null,
-    "posData" : null,
-    "tags" : [ ],
-    "attachment" : null,
-    "saving" : null,
-    "additionalData" : {
-      "customerId" : null,
-      "tags" : null,
-      "marked" : false
-    },
-    "categories" : [ {
-      "mainCategory" : "EDUCATION",
-      "subCategory" : "KINDERGARTEN_SCHOOL_UNIVERSITY",
-      "amount" : {
-        "value" : -100,
-        "precision" : 2,
-        "currency" : "EUR"
-      },
-      "hidden" : false
-    } ],
-    "categorizationSource" : {
-      "type" : "GLOBAL_RULE",
-      "content" : "{\n  \"keyword\" : \"*KINDERGAERTEN*\",\n  \"hidden\" : false,\n  \"subCategory\" : \"KINDERGARTEN_SCHOOL_UNIVERSITY\"\n}"
-    },
-    "paymentReference" : "MA 10 Wiener Kindergaerten/Wilma Ri MA 10 Wiener Kindergaerten MDID:00206579811000001 nner/Elternbeitraege Wiener Kinderg aert/PDezember 2017 V121282892",
-    "similarityKey" : "E1DBCC368D0D72FC2A15905AC15E4F75",
-    "taxPayments" : null,
-    "mandateId" : "00206579811000001",
-    "sepaRecurrence" : "RCUR",
-    "sepaScheme" : "CORE",
-    "mandateDate" : "2017-01-09",
-    "fee" : null
-  },
-  {
-    "id" : "D3E0BD0330B14C01",
-    "title" : "MA 10 Wiener Kindergaerten",
-    "subtitle" : "MA 10 Wiener Kindergaerten/Wilma Ri",
-    "sender" : {
-      "iban" : "AT601200051428010635",
-      "bic" : "BKAUATWWXXX",
-      "number" : null,
-      "bankCode" : null,
-      "prefix" : "",
-      "countryCode" : "AT"
-    },
-    "senderName" : "Stadt Wien",
-    "senderOriginator" : "MA 10 Wiener Kindergaerten",
-    "senderReference" : "002202296141",
-    "senderBankReference" : null,
-    "receiver" : {
-      "iban" : "AT552011182743536500",
-      "bic" : "GIBAATWWXXX",
-      "number" : "82743536500",
-      "bankCode" : "20111",
-      "prefix" : "",
-      "countryCode" : "AT"
-    },
-    "receiverName" : "Birgit Anna Mayer",
-    "receiverReference" : "",
-    "creditorId" : "AT03MAG00000009679",
-    "amount" : {
-      "value" : -100,
-      "precision" : 2,
-      "currency" : "EUR"
-    },
-    "amountSender" : {
-      "value" : -100,
-      "precision" : 2,
-      "currency" : "EUR"
-    },
-    "amountAccounting" : null,
-    "bookingDate" : 1518390000000,
-    "valuationDate" : 1518390000000,
-    "importDate" : 1518406380857,
-    "inputDate" : null,
-    "dueDate" : null,
-    "exchangeDate" : null,
-    "insertTimestamp" : 1518409955821,
-    "reference" : "1200018020810550037217259240",
-    "originatorSystem" : "SD*/EZG",
-    "additionalTexts" : {
-      "text1" : "MA 10 Wiener Kindergaerten/Wilma Ri",
-      "text2" : "MA 10 Wiener Kindergaerten",
-      "text3" : "MDID:00206579811000001",
-      "lineItems" : [ "MA 10 Wiener Kindergaerten/Wilma Ri", "nner/Elternbeitraege Wiener Kinderg", "aert/PDezember 2017 V121282892" ],
-      "constantSymbol" : null,
-      "variableSymbol" : null,
-      "specificSymbol" : null
-    },
-    "note" : null,
-    "bookingType" : "DU-BK-DD",
-    "bookingTypeTranslation" : null,
-    "orderRole" : "RECEIVER",
-    "flags" : [ "IS_VISIBLE", "IS_BAL_RELEVANT", "ALLOWS_REPLY" ],
-    "orderCategory" : "DOMESTIC",
-    "cardId" : "0000000000000000",
-    "maskedCardNumber" : "",
-    "invoiceId" : null,
-    "transactionDate" : null,
-    "location" : "",
-    "foreignExchangeFee" : {
-      "value" : 0,
-      "precision" : 2,
-      "currency" : "EUR"
-    },
-    "transactionFee" : {
-      "value" : 0,
-      "precision" : 2,
-      "currency" : "EUR"
-    },
-    "exchangeRateValue" : 0,
-    "exchangeRatePrecision" : 7,
-    "cardType" : "",
-    "mcc" : "",
-    "country" : "",
-    "paymentType" : "",
-    "cardCashbackAmount" : null,
-    "cardBrand" : null,
-    "virtualCard" : {
-      "virtualCardNumber" : "",
-      "deviceName" : "",
-      "mobilePaymentApplicationName" : ""
-    },
-    "merchantName" : null,
-    "partnerName" : "Stadt Wien",
-    "partnerOriginator" : "MA 10 Wiener Kindergaerten",
-    "partnerAddress" : [ "Neues Rathaus 1", "1080 Wien" ],
-    "partner" : {
-      "iban" : "AT601200051428010635",
-      "bic" : "BKAUATWWXXX",
-      "number" : null,
-      "bankCode" : null,
-      "prefix" : "",
-      "countryCode" : "AT"
-    },
-    "partnerData" : null,
-    "logo" : {
-      "id" : null,
-      "uri" : "icon:ico-pfm-education"
-    },
-    "owner" : "CF910E8B7B270811",
-    "balance" : {
-      "value" : 36286,
-      "precision" : 2,
-      "currency" : "EUR"
-    },
-    "txType" : "CASHCOLLECTION",
-    "txDirection" : "OUTGOING",
-    "cardInfo" : null,
-    "atmData" : null,
-    "posData" : null,
-    "tags" : [ ],
-    "attachment" : null,
-    "saving" : null,
-    "additionalData" : {
-      "customerId" : null,
-      "tags" : null,
-      "marked" : false
-    },
-    "categories" : [ {
-      "mainCategory" : "EDUCATION",
-      "subCategory" : "KINDERGARTEN_SCHOOL_UNIVERSITY",
-      "amount" : {
-        "value" : -6535,
-        "precision" : 2,
-        "currency" : "EUR"
-      },
-      "hidden" : false
-    } ],
-    "categorizationSource" : {
-      "type" : "GLOBAL_RULE",
-      "content" : "{\n  \"keyword\" : \"*KINDERGAERTEN*\",\n  \"hidden\" : false,\n  \"subCategory\" : \"KINDERGARTEN_SCHOOL_UNIVERSITY\"\n}"
-    },
-    "paymentReference" : "MA 10 Wiener Kindergaerten/Wilma Ri MA 10 Wiener Kindergaerten MDID:00206579811000001 nner/Elternbeitraege Wiener Kinderg aert/PDezember 2017 V121282892",
-    "similarityKey" : "E1DBCC368D0D72FC2A15905AC15E4F75",
-    "taxPayments" : null,
-    "mandateId" : "00206579811000001",
-    "sepaRecurrence" : "RCUR",
-    "sepaScheme" : "CORE",
-    "mandateDate" : "2017-01-09",
-    "fee" : null
-  },
-  {
-    "id" : "D3E0BD0330B14C01",
-    "title" : "MA 10 Wiener Kindergaerten",
-    "subtitle" : "MA 10 Wiener Kindergaerten/Wilma Ri",
-    "sender" : {
-      "iban" : "AT601200051428010635",
-      "bic" : "BKAUATWWXXX",
-      "number" : null,
-      "bankCode" : null,
-      "prefix" : "",
-      "countryCode" : "AT"
-    },
-    "senderName" : "Stadt Wien",
-    "senderOriginator" : "MA 10 Wiener Kindergaerten",
-    "senderReference" : "002202296141",
-    "senderBankReference" : null,
-    "receiver" : {
-      "iban" : "AT552011182743536500",
-      "bic" : "GIBAATWWXXX",
-      "number" : "82743536500",
-      "bankCode" : "20111",
-      "prefix" : "",
-      "countryCode" : "AT"
-    },
-    "receiverName" : "Birgit Anna Mayer",
-    "receiverReference" : "",
-    "creditorId" : "AT03MAG00000009679",
-    "amount" : {
-      "value" : 300,
-      "precision" : 2,
-      "currency" : "EUR"
-    },
-    "amountSender" : {
-      "value" : 300,
-      "precision" : 2,
-      "currency" : "EUR"
-    },
-    "amountAccounting" : null,
-    "bookingDate" : 1518390000000,
-    "valuationDate" : 1518390000000,
-    "importDate" : 1518406380857,
-    "inputDate" : null,
-    "dueDate" : null,
-    "exchangeDate" : null,
-    "insertTimestamp" : 1518409955821,
-    "reference" : "1200018020810550037217259240",
-    "originatorSystem" : "SD*/EZG",
-    "additionalTexts" : {
-      "text1" : "MA 10 Wiener Kindergaerten/Wilma Ri",
-      "text2" : "MA 10 Wiener Kindergaerten",
-      "text3" : "MDID:00206579811000001",
-      "lineItems" : [ "MA 10 Wiener Kindergaerten/Wilma Ri", "nner/Elternbeitraege Wiener Kinderg", "aert/PDezember 2017 V121282892" ],
-      "constantSymbol" : null,
-      "variableSymbol" : null,
-      "specificSymbol" : null
-    },
-    "note" : null,
-    "bookingType" : "DU-BK-DD",
-    "bookingTypeTranslation" : null,
-    "orderRole" : "RECEIVER",
-    "flags" : [ "IS_VISIBLE", "IS_BAL_RELEVANT", "ALLOWS_REPLY" ],
-    "orderCategory" : "DOMESTIC",
-    "cardId" : "0000000000000000",
-    "maskedCardNumber" : "",
-    "invoiceId" : null,
-    "transactionDate" : null,
-    "location" : "",
-    "foreignExchangeFee" : {
-      "value" : 0,
-      "precision" : 2,
-      "currency" : "EUR"
-    },
-    "transactionFee" : {
-      "value" : 0,
-      "precision" : 2,
-      "currency" : "EUR"
-    },
-    "exchangeRateValue" : 0,
-    "exchangeRatePrecision" : 7,
-    "cardType" : "",
-    "mcc" : "",
-    "country" : "",
-    "paymentType" : "",
-    "cardCashbackAmount" : null,
-    "cardBrand" : null,
-    "virtualCard" : {
-      "virtualCardNumber" : "",
-      "deviceName" : "",
-      "mobilePaymentApplicationName" : ""
-    },
-    "merchantName" : null,
-    "partnerName" : "Stadt Wien",
-    "partnerOriginator" : "MA 10 Wiener Kindergaerten",
-    "partnerAddress" : [ "Neues Rathaus 1", "1080 Wien" ],
-    "partner" : {
-      "iban" : "AT601200051428010635",
-      "bic" : "BKAUATWWXXX",
-      "number" : null,
-      "bankCode" : null,
-      "prefix" : "",
-      "countryCode" : "AT"
-    },
-    "partnerData" : null,
-    "logo" : {
-      "id" : null,
-      "uri" : "icon:ico-pfm-education"
-    },
-    "owner" : "CF910E8B7B270811",
-    "balance" : {
-      "value" : 36286,
-      "precision" : 2,
-      "currency" : "EUR"
-    },
-    "txType" : "CASHCOLLECTION",
-    "txDirection" : "OUTGOING",
-    "cardInfo" : null,
-    "atmData" : null,
-    "posData" : null,
-    "tags" : [ ],
-    "attachment" : null,
-    "saving" : null,
-    "additionalData" : {
-      "customerId" : null,
-      "tags" : null,
-      "marked" : false
-    },
-    "categories" : [ {
-      "mainCategory" : "EDUCATION",
-      "subCategory" : "KINDERGARTEN_SCHOOL_UNIVERSITY",
-      "amount" : {
-        "value" : -6535,
-        "precision" : 2,
-        "currency" : "EUR"
-      },
-      "hidden" : false
-    } ],
-    "categorizationSource" : {
-      "type" : "GLOBAL_RULE",
-      "content" : "{\n  \"keyword\" : \"*KINDERGAERTEN*\",\n  \"hidden\" : false,\n  \"subCategory\" : \"KINDERGARTEN_SCHOOL_UNIVERSITY\"\n}"
-    },
-    "paymentReference" : "MA 10 Wiener Kindergaerten/Wilma Ri MA 10 Wiener Kindergaerten MDID:00206579811000001 nner/Elternbeitraege Wiener Kinderg aert/PDezember 2017 V121282892",
-    "similarityKey" : "E1DBCC368D0D72FC2A15905AC15E4F75",
-    "taxPayments" : null,
-    "mandateId" : "00206579811000001",
-    "sepaRecurrence" : "RCUR",
-    "sepaScheme" : "CORE",
-    "mandateDate" : "2017-01-09",
-    "fee" : null
-  }
+    "collection": [{
+        "id" : "D3E0BD0330B14C01",
+        "title" : "MA 10 Wiener Kindergaerten",
+        "subtitle" : "MA 10 Wiener Kindergaerten/Wilma Ri",
+        "sender" : {
+          "iban" : "AT601200051428010635",
+          "bic" : "BKAUATWWXXX",
+          "number" : null,
+          "bankCode" : null,
+          "prefix" : "",
+          "countryCode" : "AT"
+        },
+        "senderName" : "Stadt Wien",
+        "senderOriginator" : "MA 10 Wiener Kindergaerten",
+        "senderReference" : "002202296141",
+        "senderBankReference" : null,
+        "receiver" : {
+          "iban" : "AT552011182743536500",
+          "bic" : "GIBAATWWXXX",
+          "number" : "82743536500",
+          "bankCode" : "20111",
+          "prefix" : "",
+          "countryCode" : "AT"
+        },
+        "receiverName" : "Birgit Anna Mayer",
+        "receiverReference" : "",
+        "creditorId" : "AT03MAG00000009679",
+        "amount" : {
+          "value" : -100,
+          "precision" : 2,
+          "currency" : "EUR"
+        },
+        "amountSender" : {
+          "value" : -100,
+          "precision" : 2,
+          "currency" : "EUR"
+        },
+        "amountAccounting" : null,
+        "bookingDate" : 1518390000000,
+        "valuationDate" : 1518390000000,
+        "importDate" : 1518406380857,
+        "inputDate" : null,
+        "dueDate" : null,
+        "exchangeDate" : null,
+        "insertTimestamp" : 1518409955821,
+        "reference" : "1200018020810550037217259240",
+        "originatorSystem" : "SD*/EZG",
+        "additionalTexts" : {
+          "text1" : "MA 10 Wiener Kindergaerten/Wilma Ri",
+          "text2" : "MA 10 Wiener Kindergaerten",
+          "text3" : "MDID:00206579811000001",
+          "lineItems" : [ "MA 10 Wiener Kindergaerten/Wilma Ri", "nner/Elternbeitraege Wiener Kinderg", "aert/PDezember 2017 V121282892" ],
+          "constantSymbol" : null,
+          "variableSymbol" : null,
+          "specificSymbol" : null
+        },
+        "note" : null,
+        "bookingType" : "DU-BK-DD",
+        "bookingTypeTranslation" : null,
+        "orderRole" : "RECEIVER",
+        "flags" : [ "IS_VISIBLE", "IS_BAL_RELEVANT", "ALLOWS_REPLY" ],
+        "orderCategory" : "DOMESTIC",
+        "cardId" : "0000000000000000",
+        "maskedCardNumber" : "",
+        "invoiceId" : null,
+        "transactionDate" : null,
+        "location" : "",
+        "foreignExchangeFee" : {
+          "value" : 0,
+          "precision" : 2,
+          "currency" : "EUR"
+        },
+        "transactionFee" : {
+          "value" : 0,
+          "precision" : 2,
+          "currency" : "EUR"
+        },
+        "exchangeRateValue" : 0,
+        "exchangeRatePrecision" : 7,
+        "cardType" : "",
+        "mcc" : "",
+        "country" : "",
+        "paymentType" : "",
+        "cardCashbackAmount" : null,
+        "cardBrand" : null,
+        "virtualCard" : {
+          "virtualCardNumber" : "",
+          "deviceName" : "",
+          "mobilePaymentApplicationName" : ""
+        },
+        "merchantName" : null,
+        "partnerName" : "Stadt Wien",
+        "partnerOriginator" : "MA 10 Wiener Kindergaerten",
+        "partnerAddress" : [ "Neues Rathaus 1", "1080 Wien" ],
+        "partner" : {
+          "iban" : "AT601200051428010635",
+          "bic" : "BKAUATWWXXX",
+          "number" : null,
+          "bankCode" : null,
+          "prefix" : "",
+          "countryCode" : "AT"
+        },
+        "partnerData" : null,
+        "logo" : {
+          "id" : null,
+          "uri" : "icon:ico-pfm-education"
+        },
+        "owner" : "CF910E8B7B270811",
+        "balance" : {
+          "value" : 36286,
+          "precision" : 2,
+          "currency" : "EUR"
+        },
+        "txType" : "CASHCOLLECTION",
+        "txDirection" : "OUTGOING",
+        "cardInfo" : null,
+        "atmData" : null,
+        "posData" : null,
+        "tags" : [ ],
+        "attachment" : null,
+        "saving" : null,
+        "additionalData" : {
+          "customerId" : null,
+          "tags" : null,
+          "marked" : false
+        },
+        "categories" : [ {
+          "mainCategory" : "EDUCATION",
+          "subCategory" : "KINDERGARTEN_SCHOOL_UNIVERSITY",
+          "amount" : {
+            "value" : -100,
+            "precision" : 2,
+            "currency" : "EUR"
+          },
+          "hidden" : false
+        } ],
+        "categorizationSource" : {
+          "type" : "GLOBAL_RULE",
+          "content" : "{\n  \"keyword\" : \"*KINDERGAERTEN*\",\n  \"hidden\" : false,\n  \"subCategory\" : \"KINDERGARTEN_SCHOOL_UNIVERSITY\"\n}"
+        },
+        "paymentReference" : "MA 10 Wiener Kindergaerten/Wilma Ri MA 10 Wiener Kindergaerten MDID:00206579811000001 nner/Elternbeitraege Wiener Kinderg aert/PDezember 2017 V121282892",
+        "similarityKey" : "E1DBCC368D0D72FC2A15905AC15E4F75",
+        "taxPayments" : null,
+        "mandateId" : "00206579811000001",
+        "sepaRecurrence" : "RCUR",
+        "sepaScheme" : "CORE",
+        "mandateDate" : "2017-01-09",
+        "fee" : null
+      }, {
+        "id" : "D3DEE8FB792E7B01",
+        "title" : "DM-FIL. 0609",
+        "subtitle" : "Payment with card 1 on the 10. Feb. at 17:38.",
+        "sender" : {
+          "iban" : "",
+          "bic" : "",
+          "number" : "40100101600",
+          "bankCode" : "20111",
+          "prefix" : "",
+          "countryCode" : ""
+        },
+        "senderName" : null,
+        "senderOriginator" : null,
+        "senderReference" : "",
+        "senderBankReference" : null,
+        "receiver" : {
+          "iban" : "",
+          "bic" : "",
+          "number" : "82743536500",
+          "bankCode" : "20111",
+          "prefix" : "",
+          "countryCode" : ""
+        },
+        "receiverName" : null,
+        "receiverReference" : "",
+        "creditorId" : "",
+        "amount" : {
+          "value" : -200,
+          "precision" : 2,
+          "currency" : "EUR"
+        },
+        "amountSender" : {
+          "value" : -200,
+          "precision" : 2,
+          "currency" : "EUR"
+        },
+        "amountAccounting" : null,
+        "bookingDate" : 1518390000000,
+        "valuationDate" : 1518217200000,
+        "importDate" : 1518280725547,
+        "inputDate" : null,
+        "dueDate" : null,
+        "exchangeDate" : null,
+        "insertTimestamp" : 1518284319923,
+        "reference" : "201111802102ALB-00H47LKMPT8W",
+        "originatorSystem" : "EPA/LPO",
+        "additionalTexts" : {
+          "text1" : "DM-FIL. 0609 0609W K1   10.02. 17:38",
+          "text2" : "",
+          "text3" : "",
+          "lineItems" : [ ],
+          "constantSymbol" : null,
+          "variableSymbol" : null,
+          "specificSymbol" : null
+        },
+        "note" : null,
+        "bookingType" : "POS",
+        "bookingTypeTranslation" : null,
+        "orderRole" : "RECEIVER",
+        "flags" : [ "IS_VISIBLE", "IS_BAL_RELEVANT" ],
+        "orderCategory" : null,
+        "cardId" : "0000000000000000",
+        "maskedCardNumber" : "",
+        "invoiceId" : null,
+        "transactionDate" : null,
+        "location" : "",
+        "foreignExchangeFee" : {
+          "value" : 0,
+          "precision" : 2,
+          "currency" : "EUR"
+        },
+        "transactionFee" : {
+          "value" : 0,
+          "precision" : 2,
+          "currency" : "EUR"
+        },
+        "exchangeRateValue" : 0,
+        "exchangeRatePrecision" : 7,
+        "cardType" : "",
+        "mcc" : "5977",
+        "country" : "AT",
+        "paymentType" : "",
+        "cardCashbackAmount" : null,
+        "cardBrand" : null,
+        "virtualCard" : {
+          "virtualCardNumber" : "",
+          "deviceName" : "",
+          "mobilePaymentApplicationName" : ""
+        },
+        "merchantName" : "DM-FIL. 0609",
+        "partnerName" : null,
+        "partnerOriginator" : null,
+        "partnerAddress" : [ ],
+        "partner" : {
+          "iban" : "",
+          "bic" : "",
+          "number" : "40100101600",
+          "bankCode" : "20111",
+          "prefix" : "",
+          "countryCode" : ""
+        },
+        "partnerData" : null,
+        "logo" : {
+          "id" : null,
+          "uri" : "icon:ico-pfm-health"
+        },
+        "owner" : "CF910E8B7B270811",
+        "balance" : {
+          "value" : 42821,
+          "precision" : 2,
+          "currency" : "EUR"
+        },
+        "txType" : "POSPAYMENT",
+        "txDirection" : "OUTGOING",
+        "cardInfo" : {
+          "number" : 1,
+          "machine" : null,
+          "timestamp" : 1518280680000,
+          "country" : null,
+          "currency" : null,
+          "partner" : "DM-FIL. 0609"
+        },
+        "atmData" : null,
+        "posData" : {
+          "id" : 709,
+          "name" : "DM - drogerie markt",
+          "address" : null,
+          "lat" : null,
+          "lon" : null,
+          "hasMap" : false,
+          "hasLogo" : false,
+          "logoType" : null,
+          "nameValues" : [ "dm-fil.", "DM - drogerie markt" ],
+          "addressBookEntryAccount" : [ ]
+        },
+        "tags" : [ ],
+        "attachment" : null,
+        "saving" : null,
+        "additionalData" : {
+          "customerId" : null,
+          "tags" : null,
+          "marked" : false
+        },
+        "categories" : [ {
+          "mainCategory" : "HEALTH",
+          "subCategory" : "DRUGSTORE",
+          "amount" : {
+            "value" : -200,
+            "precision" : 2,
+            "currency" : "EUR"
+          },
+          "hidden" : false
+        } ],
+        "categorizationSource" : {
+          "type" : "GLOBAL_RULE",
+          "content" : "{\n  \"keyword\" : \"*DM-FIL*\",\n  \"transactionCode\" : \"*<AA:>POS*\",\n  \"hidden\" : false,\n  \"subCategory\" : \"DRUGSTORE\"\n}"
+        },
+        "paymentReference" : "DM-FIL. 0609 0609W K1 10.02. 17:38",
+        "similarityKey" : "9DF215E520FBF037F0B743DD42E4DFD2",
+        "taxPayments" : null,
+        "mandateId" : "",
+        "sepaRecurrence" : "",
+        "sepaScheme" : "",
+        "mandateDate" : null,
+        "fee" : null
+      }, {
+        "id" : "D3DEA17BAC954E01",
+        "title" : "HOFER DANKT",
+        "subtitle" : "Payment with card 2 on the 10. Feb. at 12:18.",
+        "sender" : {
+          "iban" : "",
+          "bic" : "",
+          "number" : "40100101600",
+          "bankCode" : "20111",
+          "prefix" : "",
+          "countryCode" : ""
+        },
+        "senderName" : null,
+        "senderOriginator" : null,
+        "senderReference" : "",
+        "senderBankReference" : null,
+        "receiver" : {
+          "iban" : "",
+          "bic" : "",
+          "number" : "82743536500",
+          "bankCode" : "20111",
+          "prefix" : "",
+          "countryCode" : ""
+        },
+        "receiverName" : null,
+        "receiverReference" : "",
+        "creditorId" : "",
+        "amount" : {
+          "value" : 500,
+          "precision" : 2,
+          "currency" : "EUR"
+        },
+        "amountSender" : {
+          "value" : 500,
+          "precision" : 2,
+          "currency" : "EUR"
+        },
+        "amountAccounting" : null,
+        "bookingDate" : 1518390000000,
+        "valuationDate" : 1518217200000,
+        "importDate" : 1518261527856,
+        "inputDate" : null,
+        "dueDate" : null,
+        "exchangeDate" : null,
+        "insertTimestamp" : 1518265126998,
+        "reference" : "201111802102ALB-00BZWTDI33BK",
+        "originatorSystem" : "EPA/LPO",
+        "additionalTexts" : {
+          "text1" : "HOFER DANKT  0586  K2   10.02. 12:18",
+          "text2" : "",
+          "text3" : "",
+          "lineItems" : [ ],
+          "constantSymbol" : null,
+          "variableSymbol" : null,
+          "specificSymbol" : null
+        },
+        "note" : null,
+        "bookingType" : "POS",
+        "bookingTypeTranslation" : null,
+        "orderRole" : "RECEIVER",
+        "flags" : [ "IS_VISIBLE", "IS_BAL_RELEVANT" ],
+        "orderCategory" : null,
+        "cardId" : "0000000000000000",
+        "maskedCardNumber" : "",
+        "invoiceId" : null,
+        "transactionDate" : null,
+        "location" : "",
+        "foreignExchangeFee" : {
+          "value" : 0,
+          "precision" : 2,
+          "currency" : "EUR"
+        },
+        "transactionFee" : {
+          "value" : 0,
+          "precision" : 2,
+          "currency" : "EUR"
+        },
+        "exchangeRateValue" : 0,
+        "exchangeRatePrecision" : 7,
+        "cardType" : "",
+        "mcc" : "5411",
+        "country" : "AT",
+        "paymentType" : "",
+        "cardCashbackAmount" : null,
+        "cardBrand" : null,
+        "virtualCard" : {
+          "virtualCardNumber" : "",
+          "deviceName" : "",
+          "mobilePaymentApplicationName" : ""
+        },
+        "merchantName" : "HOFER DANKT",
+        "partnerName" : null,
+        "partnerOriginator" : null,
+        "partnerAddress" : [ ],
+        "partner" : {
+          "iban" : "",
+          "bic" : "",
+          "number" : "40100101600",
+          "bankCode" : "20111",
+          "prefix" : "",
+          "countryCode" : ""
+        },
+        "partnerData" : null,
+        "logo" : {
+          "id" : 1217,
+          "uri" : "https://george.sparkasse.at/img/logos/logo_1217_64.png"
+        },
+        "owner" : "CF910E8B7B270811",
+        "balance" : {
+          "value" : 44376,
+          "precision" : 2,
+          "currency" : "EUR"
+        },
+        "txType" : "POSPAYMENT",
+        "txDirection" : "OUTGOING",
+        "cardInfo" : {
+          "number" : 2,
+          "machine" : null,
+          "timestamp" : 1518261480000,
+          "country" : null,
+          "currency" : null,
+          "partner" : "HOFER DANKT"
+        },
+        "atmData" : null,
+        "posData" : {
+          "id" : 1217,
+          "name" : "Hofer dankt",
+          "address" : null,
+          "lat" : null,
+          "lon" : null,
+          "hasMap" : false,
+          "hasLogo" : true,
+          "logoType" : null,
+          "nameValues" : [ "Hofer dankt" ],
+          "addressBookEntryAccount" : [ ]
+        },
+        "tags" : [ ],
+        "attachment" : null,
+        "saving" : null,
+        "additionalData" : {
+          "customerId" : null,
+          "tags" : null,
+          "marked" : false
+        },
+        "categories" : [ {
+          "mainCategory" : "FOOD",
+          "subCategory" : "FOOD_SHOPPING",
+          "amount" : {
+            "value" : 500,
+            "precision" : 2,
+            "currency" : "EUR"
+          },
+          "hidden" : false
+        } ],
+        "categorizationSource" : {
+          "type" : "GLOBAL_RULE",
+          "content" : "{\n  \"keyword\" : \"*HOFER DANKT*\",\n  \"transactionCode\" : \"*<AA:>POS*\",\n  \"hidden\" : false,\n  \"subCategory\" : \"FOOD_SHOPPING\"\n}"
+        },
+        "paymentReference" : "HOFER DANKT 0586 K2 10.02. 12:18",
+        "similarityKey" : "14F2EE1A0636C14694F4BCC9A68B8828",
+        "taxPayments" : null,
+        "mandateId" : "",
+        "sepaRecurrence" : "",
+        "sepaScheme" : "",
+        "mandateDate" : null,
+        "fee" : null
+      }
+    ]
 }
