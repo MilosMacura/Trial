@@ -21,7 +21,15 @@ public final class TransactionsAPI: TransactionsAPIProtocol {
             case 0..<25:
                 completion(.failure(.randomError))
             default:
-                completion(JSONLoader.readTransactions(fileName: "transactions"))
+                
+                let result: Result<TransactionResponse, APIError> = JSONLoader.loadJson(fileName: "transactions")
+                
+                switch result {
+                case .success(let transactionResponse):
+                    completion(.success(transactionResponse.collection))
+                case .failure(let error):
+                    completion(.failure(error))
+                }
             }
         }
     }

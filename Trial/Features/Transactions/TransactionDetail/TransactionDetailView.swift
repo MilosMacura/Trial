@@ -40,10 +40,10 @@ struct TransactionDetailView_Previews: PreviewProvider {
         
         var transaction: Trial.Transaction?
         
-        let transactionsResult = JSONLoader.readTransactions(fileName: "transactions_mock")
+        let transactionsResult: Result<TransactionResponse, APIError> = JSONLoader.loadJson(fileName: "transactions_mock")
         switch transactionsResult {
-        case .success(let transactions):
-            transaction = transactions[0]
+        case .success(let transactionsResult):
+            transaction = transactionsResult.collection[0]
         default:
             transaction = nil
         }

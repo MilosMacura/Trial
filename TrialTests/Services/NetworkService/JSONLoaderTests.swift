@@ -11,32 +11,32 @@ import XCTest
 class JSONLoaderTests: XCTestCase {
 
     func testReadTransactionsSuccess() {
-        let result = JSONLoader.readTransactions(fileName: "transactions")
+        let result: Result<TransactionResponse, APIError> = JSONLoader.loadJson(fileName: "transactions")
         switch result {
-        case .success(let transactions):
-            XCTAssert(transactions.count == 45)
+        case .success(let transactionResponse):
+            XCTAssert(transactionResponse.collection.count == 45)
         case .failure(let error):
             XCTAssert(error == .randomError)
         }
     }
     
     func testReadTransactionsMockSuccess() {
-        let result = JSONLoader.readTransactions(fileName: "transactions_mock")
+        let result: Result<TransactionResponse, APIError> = JSONLoader.loadJson(fileName: "transactions_mock")
         switch result {
-        case .success(let transactions):
-            XCTAssert(transactions.count == 3)
+        case .success(let transactionResponse):
+            XCTAssert(transactionResponse.collection.count == 3)
         case .failure(let error):
             XCTAssert(error == .randomError)
         }
     }
     
     func testReadTransactionsWrongFileName() {
-        let result = JSONLoader.readTransactions(fileName: "this_file_doesnt_exist")
+        let result: Result<TransactionResponse, APIError> = JSONLoader.loadJson(fileName: "this_file_doesnt_exist")
         switch result {
         case .failure(let error):
             XCTAssert(error == .fileMissingError)
-        case .success(let transactions):
-            XCTFail(transactions.debugDescription)
+        case .success(let transactionResponse):
+            XCTFail(transactionResponse.collection.debugDescription)
         }
     }
 
